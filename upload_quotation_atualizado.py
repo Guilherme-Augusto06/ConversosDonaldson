@@ -104,8 +104,8 @@ def main():
         sql_insert = """
             INSERT INTO quotations 
             (microsiga_pn, oracle_pn, pt_description, ncm, ipi, pis, cofins, 
-             fator_18, fator_12, fator_7, fator_4, created_at, updated_at)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW(), NOW())
+             fator_18, fator_12, fator_7, fator_4)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """
         
         registros_inseridos = 0
